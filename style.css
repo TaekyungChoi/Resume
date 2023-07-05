@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+    max-width: 960px;    /* 최대 너비 */
+    margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
+    font-family: "Noto Sans KR", "Nanum Gothic";        /* 글꼴 - 웹 폰트 */
+    font-size:14px;     /* 글자 크기 */
+}
+
+h1 {
+    font-size: 3rem;    /* 글자 크기 */
+    letter-spacing: 0.6rem;  /* 자간 */
+    padding-top: 1rem;   /* 위쪽 패딩 */
+    padding-bottom: 1rem;   /*  아래쪽 패딩 */
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+}
+
+main {
+    display: grid;    /* css grid 사용 */
+    grid-template-columns: 50% 50%; /* 왼쪽 40%, 오른쪽 60% */
+    margin-top: 3rem;
+}
+
+header {
+    text-align: center;
+    margin: auto 2rem;
+}
+
+section {
+    margin: auto 1rem 4rem 2rem;
+}
+
+p {
+    margin: 0.2rem auto;
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+h1, h2 {
+    font-weight: 100; 
+    margin-bottom: 0;
+}
+
+i {
+    margin-right: 0.5rem;    /* SNS 아이콘 오른쪽 여백 */
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
